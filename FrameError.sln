@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameError.UWP", "FrameError\FrameError.UWP\FrameError.UWP.csproj", "{DC326A2F-7694-4522-AF76-79AE46CF9843}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72F4E202-410A-4C18-A542-CAF056687F11} = {72F4E202-410A-4C18-A542-CAF056687F11}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameError", "FrameError\FrameError\FrameError.csproj", "{72F4E202-410A-4C18-A542-CAF056687F11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Debug|ARM.Build.0 = Debug|ARM
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Debug|ARM.Deploy.0 = Debug|ARM
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Debug|x64.ActiveCfg = Debug|x64
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Debug|x64.Build.0 = Debug|x64
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Debug|x64.Deploy.0 = Debug|x64
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Debug|x86.ActiveCfg = Debug|x86
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Debug|x86.Build.0 = Debug|x86
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Debug|x86.Deploy.0 = Debug|x86
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Release|Any CPU.ActiveCfg = Release|x86
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Release|ARM.ActiveCfg = Release|ARM
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Release|ARM.Build.0 = Release|ARM
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Release|ARM.Deploy.0 = Release|ARM
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Release|x64.ActiveCfg = Release|x64
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Release|x64.Build.0 = Release|x64
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Release|x64.Deploy.0 = Release|x64
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Release|x86.ActiveCfg = Release|x86
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Release|x86.Build.0 = Release|x86
+		{DC326A2F-7694-4522-AF76-79AE46CF9843}.Release|x86.Deploy.0 = Release|x86
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Debug|ARM.Build.0 = Debug|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Debug|x64.Build.0 = Debug|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Debug|x86.Build.0 = Debug|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Release|ARM.ActiveCfg = Release|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Release|ARM.Build.0 = Release|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Release|x64.ActiveCfg = Release|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Release|x64.Build.0 = Release|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Release|x86.ActiveCfg = Release|Any CPU
+		{72F4E202-410A-4C18-A542-CAF056687F11}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97F81682-EB31-4DEE-8FED-67C32C4C3F27}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FrameError"
+             x:Class="FrameError.MainPage">
+
+    <StackLayout>
+        <ListView ItemsSource="{Binding List}">
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <ViewCell>
+                        <Frame BackgroundColor="Beige" CornerRadius="5">
+                            <Label Text="{Binding Name}" WidthRequest="100" HeightRequest="50" TextColor="Aqua"/>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Clicked="RemoveItem" Text="Remove new item" />
+        <Button Clicked="AddItem" Text="Add new item" />
+    </StackLayout>
+</ContentPage>
